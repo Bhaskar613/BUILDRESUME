@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ProfileinfoCard} from '../components/Cards.jsx';
 import { UserContext } from '../context/UserContext.jsx';
-import Modal from '../components/modal.jsx';
+import Modal from '../components/Modal.jsx';
 import Login from '../components/Login.jsx';
 import Signup from '../components/SingUp.jsx';
 import { API_PATHS } from '../utils/apiPaths.js';
